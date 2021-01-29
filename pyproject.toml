@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "composable-pandas"
+version = "0.1.0"
+description = "an extension of composable for pandas with pipeable helper for
+various dataframe and series methods"
+authors = ["Todd Iverson <tiverson@winona.edu>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
