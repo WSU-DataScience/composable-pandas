@@ -1,12 +1,14 @@
 [tool.poetry]
 name = "composable-pandas"
 version = "0.1.0"
-description = "an extension of composable for pandas with pipeable helper for
-various dataframe and series methods"
+description = "an extension of composable for pandas with pipeable helper for various dataframe and series methods"
 authors = ["Todd Iverson <tiverson@winona.edu>"]
 
 [tool.poetry.dependencies]
-python = ">=3.6"
+python = ">=3.7.1"
+pandas = "^1.2.1"
+composable = "^0.2.5"
+toolz = "^0.11.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
